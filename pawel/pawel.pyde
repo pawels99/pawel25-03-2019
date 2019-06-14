@@ -1,7 +1,9 @@
 def setup():
     size(400,400)
     global id_phto
-    id_photo = loadImage("photo.jpg")
+    id_phto = loadImage("photo.jpg.jpg")
 def draw():
     global  id_phto
-    image(id_photo, 0,0,400,400)
+    image(id_phto, 0,0,400,400)
+    
+    #były błędy literówkowe i rozszerzeniemusiałeś mieć ukryte i jak dodłeś, to zrobiło się podwójne
